@@ -10,7 +10,9 @@ function makePrinter() {
   }
 
   return function printAll() {
-
+    for (let i = 0; i < 1; i++) {
+      write("");
+    }
 
     let navn = "Malte";
     write("Hei " + navn);
@@ -22,7 +24,7 @@ function makePrinter() {
     write(tall1 + " * " + tall2 + " = " + (tall1 * tall2));
     write(tall1 + " / " + tall2 + " = " + (tall1 / tall2));
 
-    let alder = 18;
+  let alder = 16;
     if (alder < 18) {
       write("Du får ikke kjøpe øl");
     } else {
